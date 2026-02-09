@@ -1,0 +1,4 @@
+id_produto,nome_produto,tipo,taxa_juros,prazo_maximo
+1,"Crédito Pessoal",Pessoal,4.50,48
+2,Consignado,Consignado,2.10,72
+3,"Cartão Crédito",Cartão,9.90,36

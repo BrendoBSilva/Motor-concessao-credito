@@ -1,0 +1,11 @@
+id_cliente,nome,sexo,idade,estado,renda_mensal,segmento,score_interno
+1,"Ana Silva",F,29,SP,4200.00,PF,720
+2,"Bruno Santos",M,35,RJ,5800.00,PF,680
+3,"Carlos Lima",M,42,MG,7600.00,PF,750
+4,"Daniela Rocha",F,31,SP,3900.00,PF,640
+5,"Eduardo Alves",M,50,PR,9200.00,PF,810
+6,"Fernanda Costa",F,27,BA,3100.00,PF,610
+7,"Gustavo Pereira",M,38,RS,6700.00,PF,700
+8,"Helena Martins",F,45,SP,8400.00,PF,780
+9,"Igor Nogueira",M,33,RJ,5200.00,PF,690
+10,"Juliana Farias",F,41,PE,6100.00,PF,720

@@ -1,0 +1,11 @@
+id_contrato,id_cliente,id_produto,data_contratacao,valor_contratado,prazo_meses,status
+1,1,1,2023-01-10,12000.00,24,ativo
+2,2,1,2023-02-15,18000.00,36,inadimplente
+3,3,2,2023-03-20,25000.00,48,ativo
+4,4,1,2023-04-05,10000.00,24,inadimplente
+5,5,2,2023-01-18,30000.00,60,ativo
+6,6,3,2023-05-12,8000.00,18,ativo
+7,7,1,2023-06-01,15000.00,36,ativo
+8,8,2,2023-02-28,22000.00,48,ativo
+9,9,1,2023-03-14,14000.00,24,inadimplente
+10,10,3,2023-04-20,9000.00,18,ativo

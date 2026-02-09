@@ -67,5 +67,3 @@ Autor
 Brendo Barbosa Silva
 Projeto desenvolvido para fins de aprendizado, portfólio profissional e demonstração de competências em análise de dados aplicada ao setor bancário.
 Registro de pagamentos e dias de atraso.
-
-A modelagem segue boas práticas de normalização e integridade referencial, simulando um cenário bancário real.

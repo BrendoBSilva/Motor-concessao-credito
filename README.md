@@ -1,6 +1,3 @@
-Projeto Bancário — Concessão de Crédito
-
-Perfeito — organizei isso no padrão de README para GitHub, claro, profissional e bem “cara de projeto bancário”. Pode copiar e colar direto no repositório.
 
  Projeto Bancário — Concessão de Crédito
 

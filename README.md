@@ -1,14 +1,20 @@
 Projeto Bancário — Concessão de Crédito
 
+Perfeito — organizei isso no padrão de README para GitHub, claro, profissional e bem “cara de projeto bancário”. Pode copiar e colar direto no repositório.
+
+ Projeto Bancário — Concessão de Crédito
+
 Análise de Carteira e Inadimplência | SQL + Power BI
 
-Descrição do Projeto
+ Descrição do Projeto
 
-Este projeto simula um ambiente bancário real de concessão de crédito, com foco na gestão da carteira, monitoramento de inadimplência e análise de risco pós-concessão.
+Este projeto simula um ambiente bancário real de concessão de crédito, com foco na gestão da carteira, monitoramento da inadimplência e análise de risco pós-concessão.
 
-Toda a análise foi desenvolvida utilizando SQL para consultas analíticas e Power BI para visualização, com uma estrutura escalável, iniciando em uma base reduzida de 20 clientes, preparada para crescimento sem necessidade de reestruturação.
+Toda a análise foi desenvolvida utilizando SQL para consultas analíticas e Power BI para visualização de dados. A estrutura foi pensada de forma escalável, iniciando com uma base reduzida de 20 clientes, preparada para crescimento sem necessidade de reestruturação do modelo.
 
-Objetivos
+O projeto reflete práticas comuns do setor financeiro e tem como objetivo demonstrar domínio técnico aplicado a cenários reais de negócio.
+
+ Objetivos
 
 Analisar a carteira de crédito concedida
 
@@ -20,44 +26,47 @@ Criar um dashboard executivo de folha única
 
 Demonstrar domínio de SQL aplicado ao setor bancário
 
-Tecnologias Utilizadas
-
+ Tecnologias Utilizadas
 SQL
 
-JOINs
+JOINs entre múltiplas tabelas
 
-GROUP BY
+GROUP BY para análises agregadas
 
-Métricas agregadas
+Cálculo de métricas financeiras
 
-Cálculo de percentuais
+Percentuais de inadimplência e concentração de risco
 
 Power BI
 
-Modelagem de dados
+Modelagem de dados relacional
 
-Relacionamentos
+Criação de relacionamentos
 
-Visualizações analíticas
+Visualizações analíticas e executivas
 
-Modelo Relacional de Dados
+Dashboard consolidado para tomada de decisão
 
-Estrutura de Dados
-Tabelas
+ Modelo Relacional de Dados
+
+O projeto utiliza um modelo relacional simples e eficiente, simulando sistemas bancários reais.
+
+Estrutura das Tabelas
 
 clientes
 Informações demográficas e financeiras dos clientes.
 
 produtos_credito
-Tipos de produtos bancários (crédito pessoal, consignado, cartão).
+Tipos de produtos bancários (crédito pessoal, consignado, cartão de crédito).
 
 contratos
-Dados da concessão de crédito e status do contrato.
+Dados da concessão de crédito, valor contratado, produto, cliente e status do contrato.
 
 parcelas
-Estrutura de vencimentos dos contratos.
+Estrutura de vencimentos dos contratos, valores e datas de pagamento previstas.
 
 pagamentos
+Registros de pagamentos realizados, datas efetivas e status de quitação.
 
 <img width="1328" height="805" alt="Punisher Max em TLOU e mais 4 páginas - Perfil 1 — Microsoft​ Edge 08_02_2026 20_25_49" src="https://github.com/user-attachments/assets/2d03306e-da74-4b0b-8067-c186c8c1e3a3" />
 

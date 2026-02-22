@@ -1,69 +1,51 @@
 
- Projeto Bancário — Concessão de Crédito
+Projeto Bancário — Concessão de Crédito
 
 Análise de Carteira e Inadimplência | SQL + Power BI
 
- Descrição do Projeto
+Descrição
 
-Este projeto simula um ambiente bancário real de concessão de crédito, com foco na gestão da carteira, monitoramento da inadimplência e análise de risco pós-concessão.
+Simulação de um ambiente bancário real voltado à concessão de crédito, gestão da carteira e monitoramento da inadimplência. O projeto aplica práticas do setor financeiro utilizando SQL para consultas analíticas e Power BI para dashboards executivos.
 
-Toda a análise foi desenvolvida utilizando SQL para consultas analíticas e Power BI para visualização de dados. A estrutura foi pensada de forma escalável, iniciando com uma base reduzida de 20 clientes, preparada para crescimento sem necessidade de reestruturação do modelo.
+A base inicial contempla 20 clientes, mas a estrutura é escalável para crescimento, refletindo cenários reais de decisão de crédito.
 
-O projeto reflete práticas comuns do setor financeiro e tem como objetivo demonstrar domínio técnico aplicado a cenários reais de negócio.
+Objetivos
 
- Objetivos
+Avaliar a carteira de crédito e identificar clientes em risco.
 
-Analisar a carteira de crédito concedida
+Detectar padrões de inadimplência e oportunidades de mitigação.
 
-Identificar padrões de inadimplência
+Analisar risco por produto, estado e perfil do cliente.
 
-Avaliar risco por produto, estado e perfil do cliente
+Criar um dashboard executivo de folha única para suporte à decisão.
 
-Criar um dashboard executivo de folha única
+Demonstrar domínio de SQL aplicado ao setor financeiro e técnicas de visualização em Power BI.
 
-Demonstrar domínio de SQL aplicado ao setor bancário
+Tecnologias Utilizadas
 
- Tecnologias Utilizadas
 SQL
 
-JOINs entre múltiplas tabelas
+Consultas analíticas com JOINs e GROUP BY.
 
-GROUP BY para análises agregadas
-
-Cálculo de métricas financeiras
-
-Percentuais de inadimplência e concentração de risco
+Cálculo de métricas financeiras, percentuais de inadimplência e concentração de risco.
 
 Power BI
 
-Modelagem de dados relacional
+Modelagem relacional e criação de relacionamentos.
 
-Criação de relacionamentos
+Dashboards analíticos e executivos, prontos para tomada de decisão.
 
-Visualizações analíticas e executivas
+Modelo Relacional de Dados
 
-Dashboard consolidado para tomada de decisão
+clientes – Dados demográficos e financeiros dos clientes.
 
- Modelo Relacional de Dados
+produtos_credito – Tipos de produtos (crédito pessoal, consignado, cartão).
 
-O projeto utiliza um modelo relacional simples e eficiente, simulando sistemas bancários reais.
+contratos – Detalhes de concessão, valor contratado, cliente, produto e status.
 
-Estrutura das Tabelas
+parcelas – Vencimentos previstos de contratos, valores e datas.
 
-clientes
-Informações demográficas e financeiras dos clientes.
-
-produtos_credito
-Tipos de produtos bancários (crédito pessoal, consignado, cartão de crédito).
-
-contratos
-Dados da concessão de crédito, valor contratado, produto, cliente e status do contrato.
-
-parcelas
-Estrutura de vencimentos dos contratos, valores e datas de pagamento previstas.
-
-pagamentos
-Registros de pagamentos realizados, datas efetivas e status de quitação.
+pagamentos – Registros de pagamentos realizados, datas e status de quitação.
 
 <img width="1328" height="805" alt="Punisher Max em TLOU e mais 4 páginas - Perfil 1 — Microsoft​ Edge 08_02_2026 20_25_49" src="https://github.com/user-attachments/assets/2d03306e-da74-4b0b-8067-c186c8c1e3a3" />
 
